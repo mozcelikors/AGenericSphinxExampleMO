@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+body {
+	background-color: white;
+	color: #333;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 17px;
+}
+@font-face {
+	font-family: 'Source Sans Pro', sans-serif;
+	src: url('fonts/SourceSansPro-Bold.ttf');
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+a {
+	color: #FE7900;
+}
+a:hover {
+	color: #DD2C00;
+}
+h1 {
+	margin-top: 70px;
+}
+h4 {
+	font-weight: 300;
+	padding: 15px 0px 15px 0px;
+	font-size: 21px;
+}
+p.content  {
+	line-height: 24px;
+}
+p.content.last {
+	margin-bottom: 100px;
+}
+p.content.noheader {
+	padding-top: 15px;
+}
+.sunpy-logo {
+	width: 30%;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+div.section::before {
+  display: block;
+  content: "";
+  height: 80px;
+  margin: -80px 0 0;
+}
+/*Navbar*/
+.navbar {
+	background-color: #444444;
+}
+.navbar-brand.color2 {
+	color: white;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	color: #FE7900;
+}
+.navbar-default .navbar-brand {
+	color: #FE7900;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 30px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #FE7900;
+}
+.navbar-default .navbar-nav > li > a:active {
+	background-color: #FE7900;
+	color: white;
+}
+.navbar-default .navbar-text {
+	display: none;
+}
+div#navbar {
+	border-bottom: 3px;
+	border-bottom-color: #FE7900;
+	border-bottom-style: solid;
+}
+/*End Navbar*/
+.center {
+	text-align: center;
+}
+.icon-text{
+	color: #FE7900;
+	font-size: 96px;
+	font-weight: bold;
+}
+.icon-text.color2{
+	color: #444444;
+}
+.lead {
+	max-width: 550px;
+	margin: 0 auto;
+}
+.btn {
+	font-size: 17px;
+	font-weight: bolder;
+}
+.btn.btn-default.btn1 {
+	background-color: #FE7900;
+	border-color: #FE7900;
+	text-transform: uppercase;
+	margin-top: 20px;
+	padding: 10px 21px;
+}
+a.btn.btn-default.btn1:hover {
+	color: #FE7900;
+	background-color: white;
+}
+.btn.btn-default.btn2 {
+	background-color: #444444;
+	border-color: #444444;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+a.btn.btn-default.btn2:hover {
+	color: #444444;
+	background-color: white;
+}
+/*Sidebar*/ 
+.bs-sidenav {
+	background-color: #444444;
+	text-shadow: none;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: fixed;
+	height: 90%;
+	width: 274px;
+	border-left: 3px solid #FE7900;
+}
+.bs-sidenav .nav > li > a {
+	color: white;
+	padding: 8px 20px;
+}
+.bs-sidenav .nav > li > a:hover,
+.bs-sidenav .nav > li > a:focus {
+	background-color: rgba(230, 124, 25, 1);
+}
+.bs-sidenav .nav > li > a.current {
+	color: white;
+	background-color: rgba(230, 124, 25, 1);
+}
+.bs-sidenav .nav .nav > li > a {
+	color: #444444;
+	background-color: #e3e3e3;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right : solid 1px #444444;
+	border-left : solid 1px #444444;
+	font-size: 100%;
+}
+.bs-sidenav .nav .nav > li > a.current {
+	background-color: rgba(230, 124, 25, 1);
+	color: white;
+}
+.bs-sidenav .nav .nav > li > a:hover {
+	background-color: #BDBDBD;
+}
+.bs-sidenav .nav .nav .nav > li > a {
+	padding-left: 45px;
+}
+.bs-sidenav .nav .nav .nav .nav > li > a {
+  background-color: #BDBDBD;
+  padding-left: 60px;
+}
+.bs-sidenav .nav .nav .nav .nav > li > a:hover {
+  color: #444444;
+}
+.form-control {
+	height: 35px;
+	color: #444444;
+	border-radius: 50px;
+}
+.form-control, input {
+	border-width: 1px;
+}
+.doc-title {
+	color: #FE7900;
+	text-align: center;
+	font-weight: bold;
+}
+/*End Sidebar*/ 
+.divider {
+	border-bottom: 1px solid #eee;
+}
+.livechat {
+	border:0; 
+	width:100%; 
+	height:450px;
+	padding-top: 50px;
+}
+footer {
+	display: none;
+}
+/*Docs specific styling*/
+pre {
+	padding: 12px;
+	margin: 30px 0px 30px 0px;
+	background-color: white;
+	border: 1px solid #E3E3E3
+}
+/*Warning*/
+div.admonition {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+.alert-warning {
+	background-color: #FFF3E0;
+	border: 1px solid #FE7900;
+}
+p.admonition-title {
+	color: #333;
+}
+.alert>p+p {
+	color: #333;
+}
+/*Code*/
+code.xref, a code {
+	background-color: #EEEEEE;
+}
+code {
+	color: #0D47A1;
+	padding: 2px;
+}
+code.descname {
+	font-size: 17px;
+}
+/*Highlight*/
+.highlight .o {
+	color: #FE7900;
+}
+.highlight .nb, .highlight .kn  {
+	color: #0D47A1;
+}
+.highlight .gp {
+	color: #BF360C;
+}
+.highlight .c1 {
+	color: #610B0B;
+}
+dt:target, .highlighted {
+	background-color: #EEEEEE;
+}
+/*Info*/
+.alert-info {
+	border: 1px solid #0D47A1;
+	background-color: #E3F2FD;
+	color: #333;
+}
+/*Button*/
+div.sphx-glr-download a {
+	background-color: white;
+	background-image: none !important;
+	border: 1px solid #FE7900;
+}
+div.sphx-glr-download a:hover {
+	background-color: #FE7900;
+}
+blockquote {
+	font-size: 17px;
+}
+.table, .table>tbody>tr>td {
+	border: 1px solid #333;
+	padding: 10px;
+}
+/*End Docs specific styling*/
+@media (max-width: 510px) {
+	.sunpy-logo {
+   		width: 75%;
+ 	}
+ 	.bs-sidenav {
+ 		position: relative;
+ 		width: 100%
+ 	}
+}
+@media (max-width: 1000px) {
+	.bs-sidenav {
+ 		position: relative;
+ 		display: block;
+ 		margin: 45px auto;
+ 	}
+}
+@media (min-width: 768px) {
+	.container>.navbar-header, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container-fluid>.navbar-collapse {
+		margin-top: 10px;
+		height: 70px;
+	}
+	.navbar-right {
+		float: none !important;
+	}
+@media screen and (min-width: 992px) {
+	.bs-sidenav.affix-bottom, .bs-sidenav.affix {
+		position: fixed;
+		width: 274px;
+	}
+	.col-md-9 {
+		margin-left: 325px;
+		overflow: hidden;
+	}
+@media screen and (min-width: 1200px) {
+	.bs-sidenav.affix-bottom, .bs-sidenav.affix {
+		width: 274px;
+	}
+}
